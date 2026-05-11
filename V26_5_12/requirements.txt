@@ -1,0 +1,5 @@
+pdfplumber
+openai
+python-dotenv
+python-pptx
+rich

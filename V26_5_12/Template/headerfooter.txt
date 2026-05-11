@@ -1,0 +1,23 @@
+% ============================================
+% headerfooter.tex  -  页眉页脚样式（模板）
+% ============================================
+
+\fancyhead[L]{<<HEADER_LEFT>>}
+\fancyhead[C]{<<HEADER_CENTER>>}
+\fancyhead[R]{<<HEADER_RIGHT>>}
+
+\fancyfoot[L]{<<FOOTER_LEFT>>}
+\fancyfoot[C]{\thepage}
+\fancyfoot[R]{<<FOOTER_RIGHT>>}
+
+\renewcommand{\headrulewidth}{<<HEADRULE_WIDTH>>}
+\renewcommand{\footrulewidth}{0pt}
+
+\fancypagestyle{plain}{
+  \fancyhead[L]{<<HEADER_LEFT>>}
+  \fancyhead[C]{<<HEADER_CENTER>>}
+  \fancyhead[R]{<<HEADER_RIGHT>>}
+  \fancyfoot[L]{<<FOOTER_LEFT>>}
+  \fancyfoot[C]{\thepage}
+  \fancyfoot[R]{<<FOOTER_RIGHT>>}
+}
