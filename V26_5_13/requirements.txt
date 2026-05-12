@@ -1,0 +1,9 @@
+pdfplumber
+openai
+python-dotenv
+python-pptx
+rich
+pytesseract
+pdf2image
+Pillow
+requests
